@@ -45,3 +45,5 @@ avg_pollution_by_station.plot(kind='bar', ax=ax)
 ax.set_ylabel('Rata-rata PM2.5')
 ax.set_xlabel('Stasiun')
 st.pyplot(fig)
+
+st.caption('Copyright (c) Figo Kurniawan Siswanto-ML 50')
