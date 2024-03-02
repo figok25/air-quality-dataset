@@ -5,7 +5,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-all_df = pd.read_csv('C:/dashboard/air-quality-dataset/dashboard/all_data.csv')
+all_df = pd.read_csv('all_data.csv', engine='python')
 
 with st.sidebar:
     st.image("https://www.ppsthane.com/wp-content/uploads/2014/11/Air-Pollution.jpg")
